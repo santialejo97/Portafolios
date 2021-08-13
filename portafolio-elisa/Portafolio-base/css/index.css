@@ -234,6 +234,47 @@ a{
   padding: 7px 20px;
 }
 
+/* Opinio */
+.opinio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.opinio_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1132px;
+  height: 493px;
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+}
+
+.opinio_info img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.opinio_info p{
+  margin-bottom: 24px;
+  font-size: 34px;
+  text-align: center;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.opinio_info h5{
+  color: #0F0A0A;
+  opacity: 0.5;
+  font-size: 24px;
+  line-height: 34px;
+}
+
 
 
 
