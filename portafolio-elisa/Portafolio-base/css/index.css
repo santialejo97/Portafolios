@@ -1,0 +1,242 @@
+
+:root { 
+  --black: #0f0a0a; 
+  --primary: #42e2b8; 
+  --gradient:  linear-gradient(to right top, #fad7a1, #f8be8b, #f5a47b, #f18973, #e96d71);
+  --headline1: 700 5.9375rem/9.6068754196167rem Oxygen; 
+  --headline2: 700 3.6875rem/5.96637487411499rem Oxygen; 
+  --headline3: 700 3rem/4.854000091552734rem Oxygen; 
+  --headline4: 700 2.125rem/3.4382500648498535rem Oxygen; 
+  --headline5: 700 1.5rem/2.427000045776367rem Oxygen; 
+  --body1: 400 1rem/1.6180000305175781rem Oxygen; 
+  --body2: 400 0.875rem/1.4157500267028809rem Oxygen; 
+  --button: 700 0.875rem/1.4157500267028809rem Oxygen; 
+  --caption: 400 0.75rem/1.2135000228881836rem Oxygen; 
+  --oxigen: 'Oxygen', sans-serif;
+  --poppin: 'Poppins', sans-serif;
+}
+
+/* Globales */
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--white);
+  background-image: var(--gradient);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--oxigen);
+  font-weight: var(--body1);
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-family: var(--poppin);
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+
+h2,h3,h4,h5{
+  font-family: var(--oxigen);
+  font-weight: 700;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Utilidades */
+
+.container{
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.boton{
+  font-weight: var(--button);
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: var(--primary);
+  color: var(--black);
+  border: 2px solid var(--black);
+  border-radius: 90px;
+  text-transform: uppercase;
+}
+
+.icono{
+  background-color: var(--primary);
+  padding: 1rem;
+  border: 2px solid var(--black);
+  border-radius: 4px;
+}
+
+/* Header */
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.7rem 12.8rem;
+}
+
+.navegacion a{
+ text-decoration: none;
+ font-family: var(--oxigen);
+ font-weight: var(--button);
+ font-size: 1.4rem;
+ text-transform: uppercase;
+ margin-right: 4rem;
+ color: var(--black);
+}
+
+.navegacion a:last-of-type{
+  margin-right: 0;
+}
+
+.navegacion a:hover{
+  font-weight: 700;
+}
+
+/* Seccion */
+
+.seccion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.info{
+  width: 400px;
+  height: 100px;
+  text-align: left;
+}
+
+.info h2{
+  display: flex;
+  flex-direction: column;
+  font-family: var(--oxigen);
+  font-weight: var(--headline2);
+  font-size: 4.8rem;
+  font-weight: var(--headline2);
+  color: var(--black);
+}
+
+.info span{
+  font-size: 5.9rem;
+}
+
+.info p{
+  font-family: var(--oxigen);
+  font-weight: var(--body1);
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  line-height: 26px;
+}
+
+.iconos{
+  width: 224px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carrera{
+  margin: 200px 233px;
+  text-align: center;
+}
+
+.carrera p{
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 55px;
+}
+
+.carrera h5{
+  font-size: 24px;
+}
+
+.abajo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto;
+  width: 8.5rem;
+  height: 8.5rem;
+}
+.abajo img{
+  width: 70px;
+  height: 70px;
+}
+
+/* Estudios */
+
+.estudio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem
+}
+
+.estudio_imagen img{
+  width: 652px;
+  height: 400px;
+}
+
+.leo h4{
+  width: 343px;
+  font-weight: var(--headline4);
+  font-size: 34px;
+  padding: 4px 8px;
+  background-color: var(--black);
+  color: var(--primary);
+  text-align: center;
+  box-shadow: -4px 4px 0px #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.leo p{
+  width: 449px;
+  font-weight: var(--body1);
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  line-height: 26px;
+}
+.botones{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  align-items: center;
+}
+.botones a{
+  margin-right: 16px;
+}
+
+.botones .git{
+  background-color:transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  width: 176px;
+  padding: 7px 20px;
+}
+
+
+
+
+
+
+
